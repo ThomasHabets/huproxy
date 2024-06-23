@@ -26,7 +26,7 @@ import (
 	"github.com/gorilla/websocket"
 	log "github.com/sirupsen/logrus"
 
-	huproxy "github.com/google/huproxy/lib"
+	huproxy "github.com/ThomasHabets/huproxy/lib"
 )
 
 var (

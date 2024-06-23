@@ -1,5 +1,5 @@
 FROM golang:latest
-WORKDIR /go/src/github.com/google/huproxy
+WORKDIR /go/src/github.com/ThomasHabets/huproxy
 COPY . .
 RUN mkdir /app
 RUN go get -d -v .
